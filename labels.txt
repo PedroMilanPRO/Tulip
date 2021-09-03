@@ -1,0 +1,6 @@
+open|notepad
+time|getTime
+open|vivaldi
+open|chrome
+time|getDate
+weather|getWeather

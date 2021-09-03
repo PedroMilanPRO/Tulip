@@ -1,0 +1,67 @@
+commands:
+  # Hora
+  - commmand:
+    input:  Que horas são
+    entity: time
+    action: getTime
+  - commmand:
+    input:  Me digas as horas
+    entity: time
+    action: getTime
+  - commmand:
+    input:  Eu quero saber as horas
+    entity: time
+    action: getTime
+  # Data
+  - commmand:
+    input:  Qual e a data de hoje
+    entity: time
+    action: getDate
+  - commmand:
+    input:  Data de hoje.
+    entity: time
+    action: getDate
+  # Tempo
+  - commmand:
+    input:  Previsão do tempo
+    entity: weather
+    action: getWeather
+  - commmand:
+    input:  Como está o clima
+    entity: weather
+    action: getWeather
+  # Open
+  - commmand:
+    input:  Abrir bloco de notas
+    entity: open
+    action: notepad
+  - commmand:
+    input:  Abra o bloco de notas
+    entity: open
+    action: notepad 
+  - commmand:
+    input:  Abrir chrome
+    entity: open
+    action: chrome
+  - commmand:
+    input:  Abra o chrome
+    entity: open
+    action: chrome
+  - commmand:
+    input:  Abrir vivaldi
+    entity: open
+    action: vivaldi
+  - commmand:
+    input:  Abra o vivaldi
+    entity: open
+    action: vivaldi 
+  - commmand:
+    input:  Abrir navegador padrão
+    entity: open
+    action: vivaldi
+  - commmand:
+    input:  Abra o navegador padrão
+    entity: open
+    action: vivaldi 
+
+
