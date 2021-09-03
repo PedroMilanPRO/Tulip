@@ -96,7 +96,3 @@ while True:
                 text = result['text']
                 evaluate(text)
                 
-
-
-            
-            
