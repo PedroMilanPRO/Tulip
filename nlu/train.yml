@@ -63,5 +63,14 @@ commands:
     input:  Abra o navegador padrão
     entity: open
     action: vivaldi 
+  - commmand:
+    input:  qual o seu nome
+    entity: question
+    action: getName
+  - commmand:
+    input:  me diga o seu nome
+    entity: question
+    action: getName
+
 
 

@@ -1,6 +1,7 @@
-open|notepad
-time|getTime
-open|vivaldi
 open|chrome
+open|notepad
 time|getDate
 weather|getWeather
+question|getName
+open|vivaldi
+time|getTime

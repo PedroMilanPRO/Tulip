@@ -17,3 +17,6 @@ class SystemInfo:
         answer = 'Hoje é dia {} de {} de {}'.format(now.day, now.strftime("%B"), now.year)
         return answer
 
+
+        
+

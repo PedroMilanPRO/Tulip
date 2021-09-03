@@ -26,7 +26,6 @@ import pyttsx3
 import core 
 from nlu.classifire import classify
 import psutil, os
-from time import sleep
 
 engine = pyttsx3.init()
 
@@ -49,7 +48,10 @@ def evaluate(text):
     elif entity == 'time|getDate':
             speak(core.SystemInfo.get_date())
 
-            
+    # Perguntas à tulip
+    elif entity == 'question|getName':
+        speak('Meu nome é Tulípa')  
+
     # abrir programas
 
     elif entity == 'open|notepad':
@@ -67,7 +69,6 @@ def evaluate(text):
         os.system('C:/Users/user/AppData/Local/Vivaldi/Application/vivaldi.exe')
 
     print(f'Text: {text} Entity: {entity}')
-
 
 
 # reconhecimento de fala
@@ -92,9 +93,7 @@ while True:
             result = json.loads(result)
 
             if result is not None:
-                
                 text = result['text']
-                
                 evaluate(text)
                 
 
